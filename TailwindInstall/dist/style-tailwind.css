@@ -1542,6 +1542,14 @@ video {
   margin-top: 2.25rem;
 }
 
+.-mb-px {
+  margin-bottom: -1px;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -2468,6 +2476,11 @@ video {
 .text-second-100 {
   --tw-text-opacity: 1;
   color: rgb(69 162 158 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .underline {
