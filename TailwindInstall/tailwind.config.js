@@ -25,7 +25,11 @@ module.exports = {
         Chau: ['Chau Philomene One', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif']
       },
+      
     },
   },
-  plugins: [require("flowbite")],
+  plugins: [
+    require("flowbite"),
+    require("flowbite-typography"),
+  ],
 };
